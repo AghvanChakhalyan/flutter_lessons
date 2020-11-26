@@ -66,7 +66,7 @@ class _ConversationsState extends State<Conversations> {
 
   Widget _body() {
     return SingleChildScrollView(
-      padding: EdgeInsets.symmetric(vertical: 20),
+      padding: EdgeInsets.symmetric(vertical: 40),
       child: Expanded(
         child: Container(
           color: Colors.white,
