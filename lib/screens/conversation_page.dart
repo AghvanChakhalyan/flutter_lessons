@@ -105,6 +105,7 @@ class _ConversationsState extends State<Conversations> {
                   },
                 ),
               ),
+              
               _conversationItem(isRead: true),
               _conversationItem(isRead: false),
               _conversationItem(isRead: false),

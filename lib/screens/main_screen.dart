@@ -26,7 +26,7 @@ class _MainScreenState extends State<MainScreen> {
       case 0:
         return Conversations();
       case 1:
-        return People();
+        return PeoplePage();
       case 2:
         return DiscoverPage();
       default:
@@ -45,7 +45,7 @@ class _MainScreenState extends State<MainScreen> {
       },
       items: [
         BottomNavigationBarItem(
-          title: Text("message"),
+          label: "",
           icon: Icon(
             Icons.message,
             color: Colors.grey,
@@ -56,7 +56,7 @@ class _MainScreenState extends State<MainScreen> {
           ),
         ),
         BottomNavigationBarItem(
-          title: Text("group"),
+         label: "",
           icon: Icon(
             Icons.group,
             color: Colors.grey,
@@ -67,13 +67,13 @@ class _MainScreenState extends State<MainScreen> {
           ),
         ),
         BottomNavigationBarItem(
-          title: Text("alarm"),
+         label: "",
           icon: Icon(
-            Icons.alarm,
+            Icons.edit,
             color: Colors.grey,
           ),
           activeIcon: Icon(
-            Icons.alarm,
+            Icons.edit,
             color: Colors.black,
           ),
         ),
